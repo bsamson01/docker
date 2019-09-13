@@ -1,0 +1,3 @@
+docker run -it --rm debian
+apt-get update && apt-get install -y gcc git vim mono-mcs
+rm -rf /var/lib/apt/lists/*
