@@ -1,6 +1,6 @@
-FROM alpine
+FROM alpine:latest
 RUN apk update && apk add vim
-CMD ["emacs"]
+CMD ["vim"]
 
-#docker build -t rizkyario/42-docker-1-ex00 .
-#docker run -it --rm rizkyario/42-docker-1-ex00
+#docker build -t ex00 .
+#docker run -it --rm ex00
